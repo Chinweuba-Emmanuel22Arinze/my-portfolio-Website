@@ -1,7 +1,41 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
 body{
-    background: linear-gradient(to right, grey , yellow);
+    background: linear-gradient(to right, grey , white);
+}
+.head{
+    background: linear-gradient(right, #fff, #000);
+    color: #fff;
+}
+.About_info{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    display: grid;
+
+}
+.navbar{
+    grid-area: nav;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 0.5rem;
+    place-self: center;
+
+    height: 100%;
+
+    list-style: none;
+}
+.navbar li{
+    display: inline block;
+}
+.myphoto{
+    height: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
