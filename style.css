@@ -99,9 +99,13 @@
     color: white;
 }
 /* About*/
-body{
-    background-image: url(images/myphoto2.jpg);
-    position: fixed;
-    background-repeat: no-repeat;
+.about{
+    background-color: #fff;
 }
-
+.about h2{
+text-align: center;
+color: blue;
+}
+.about p{
+    text-align: center;
+}
