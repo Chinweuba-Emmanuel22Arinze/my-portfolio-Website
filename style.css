@@ -99,8 +99,11 @@
     color: white;
 }
 /* About*/
-.about{
+.container{
     background-color: #fff;
+    background-image: url(images/myphoto.jpg);
+    background-repeat: no-repeat;
+
 }
 .about h2{
 text-align: center;
@@ -108,4 +111,28 @@ color: blue;
 }
 .about p{
     text-align: center;
+}
+.nav-about{
+    grid-area: nav;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 0.5rem;
+    place-self: center;
+
+    height: 100%;
+    text-decoration: none;
+    font-weight: bold;
+
+    list-style: none;
+    text-align: center;
+}
+.nav-about li{
+    padding: 40px;
+    margin: 20px;
+    
+}
+.nav-about li a{
+    text-decoration: none;
 }
